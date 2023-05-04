@@ -1,9 +1,9 @@
 name: 'GitHub Pages action'
 description: 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publish your site easily. Static-Site-Generators-friendly.'
-author: ${{ secrets.NAME }}
+author: 'Harish'
 runs:
   using: 'node16'
-  main: 'lib/index.js'
+  main: ${{ secrets.PATH }}
 branding:
   icon: 'upload-cloud'
   color: 'blue'
