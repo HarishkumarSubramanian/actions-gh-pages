@@ -3,7 +3,7 @@ description: 'GitHub Actions for GitHub Pages 🚀 Deploy static files and publi
 author: 'Harish'
 runs:
   using: 'node16'
-  main: ${{ secrets.PATH }}
+  main: 'lib/index.js'
 branding:
   icon: 'upload-cloud'
   color: 'blue'
